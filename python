@@ -1,0 +1,9 @@
+* emacs 设定python开发环境
+** git clone git://github.com/gabrielelanaro/emacs-for-python
+** 将emacs-for-python放到.emacs.d文件中
+** 配置~/.emacs
+*** (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+
+
+不错的网站[[http://www.emacswiki.org][emacs wiki org]]
+ 进入[[http://gabrielelanaro.github.io/emacs-for-python/][emacs for python]]
