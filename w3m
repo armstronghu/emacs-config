@@ -1,0 +1,11 @@
+* browse internet in emacs
+** sudo apt-get install w3m w3m-el w3m-img RET
+** config your .emacs file
+; w3m                                                                                                                                            
+(autoload 'w3m "w3m" "interface for w3m on emacs" t)
+(setq w3m-command-arguments '("-cookie" "-F"))
+(setq w3m-use-cookies t)
+(setq w3m-home-page "http://www.baidu.com")
+(require 'mime-w3m)
+(setq w3m-default-display-inline-image t)
+(setq w3m-default-toggle-inline-images t)
